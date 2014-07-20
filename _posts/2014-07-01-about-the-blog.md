@@ -33,3 +33,9 @@ learned from the past, and the things I learn as we go through this
 process one more time. 
 
 I hope you find some of the information here useful. 
+
+Bryan Oakley
+
+To email me, use firstname.lastname at gmail. Sorry for the
+obfuscation, but I'm trying to keep the spam to a minimum.
+
