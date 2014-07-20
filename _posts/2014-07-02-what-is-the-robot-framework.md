@@ -59,7 +59,7 @@ the pipe-delimited format:
 {% endhighlight %}
 
 
-Under the "*** Test Cases ***" heading, each line that begins with a
+Under the `*** Test Cases ***` heading, each line that begins with a
 single pipe denotes the name of a test case. Lines that begin with
 pipe-space-pipe-space are statements. Typically the first word will
 be a keyword (either a built-in keyword or a custom keyword), and 
