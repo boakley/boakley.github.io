@@ -1,0 +1,9 @@
+name: Writing code to test code
+url: http://boakley.github.io
+description: My thoughts on on software development and test automation
+
+permalink: /:year/:month/:day/:title/
+paginate: 10
+highlighter: pygments
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']

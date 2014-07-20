@@ -1,0 +1,15 @@
+---
+layout: default
+title: Archives
+---
+
+<h1>Blog Archives</h1>
+<div id="blog-archives">
+  <table>
+  {% for post in site.posts %}
+  <tr><td>{{ post.date | date: "%2d %B %Y" }} &nbsp;&#9830;&nbsp;</td>
+      <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+  </tr>
+  {% endfor %}
+  </table>
+</div>
