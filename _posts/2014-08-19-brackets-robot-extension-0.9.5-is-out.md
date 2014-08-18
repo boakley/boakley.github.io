@@ -24,5 +24,5 @@ Finally, keyword hints (when you press control-space in a place where
 a keyword is likely) now includes local keywords. Prior to this change
 it only picked up keywords in external libraries and resource files.
 
-
-
+For more information, see the
+[ChangeLog](https://github.com/boakley/brackets-robotframework/wiki/Changelog)
