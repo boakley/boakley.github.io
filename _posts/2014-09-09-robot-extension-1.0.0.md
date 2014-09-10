@@ -22,7 +22,7 @@ will display a list of keywords along with their synopsis. You
 can filter the list, and there is a link that allows you to 
 paste the highlighted keyword into the editor.
 
-[![image](assets/images/brackets-keyword-search_thumbnail.jpg)](assets/images/brackets-keyword-search.png)
+[![image]({{ site.url }}/assets/images/brackets-keyword-search_thumbnail.jpg)]({{ site.url }}/assets/images/brackets-keyword-search.png)
 
 ## Test runner
 
@@ -36,7 +36,7 @@ suite that is currently being edited. For example, if you are
 editing "smoke.robot", "%SUITE" will be replaced with "smoke". This 
 would typically be used with the --suite option.
 
-[![image](assets/images/brackets-runner_thumbnail.jpg)](assets/images/brackets-runner.png)
+[![image]({{ site.url }}/assets/images/brackets-runner_thumbnail.jpg)]({{ site.url }}/assets/images/brackets-runner.png)
 
 ## Robot Menu
 
