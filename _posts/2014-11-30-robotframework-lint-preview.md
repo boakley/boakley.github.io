@@ -73,8 +73,36 @@ You can get a list of all of the currently installed rules with the
     'E RequireTestDocumentation'
     'E TagWithSpaces'
 
+# A simple rule
 
-# Where can I find it?
+Rules are python classes that implement an `apply` method. Depending
+on the inherited class, a rule may be given a reference to a suite
+object, a testcase object, or a keyword object.
+
+Here is an example rule that checks for duplicate test case names
+within a suite:
+
+    import rflint.rule as rule
+
+    class DuplicateTestNames(rule.SuiteRule):
+        '''Verify that no tests have a name of an existing test in the same suite'''
+        severity = rule.ERROR
+
+        def apply(self, suite):
+            cache = []
+            for testcase in suite.testcases:
+                if name in cache:
+                    self.report(suite, testcase.linenumber, "Duplicate testcase name")
+                cache.append(name)
+
+# Adding custom rules
+
+Built-in rules can be found in the
+`rules` folder inside the rflint module. Rules are also looked for in
+a folder named `site-rules`, which is where your custom rules should
+go. 
+
+# Where can I find robotframework-lint?
 
 rflint is available on github: https://github.com/boakley/robotframework-lint
 
@@ -82,6 +110,14 @@ You can also install with pip, which will install the module "rflint"
 in the standard place:
 
     $ pip install robotframework-lint
+
+# Online documentation
+
+Being a preview release, documentation isn't complete. However, what
+documentation there is can be found on the github wiki for the
+project, here: 
+
+https://github.com/boakley/robotframework-lint/wiki
 
 # Want to contribute?
 
