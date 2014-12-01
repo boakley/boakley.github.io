@@ -44,17 +44,21 @@ Rflint caught three problems:
 If you want to ignore the TagWithSpaces error you can control that
 from the command line:
 
-    $ python -m rflint --ignore TagWithSpaces 
+    $ python -m rflint --ignore TagWithSpaces hello.robot
     W: 1, 0: No suite documentation (RequireSuiteDocumentation)
     E: 3, 0: No testcase documentation (RequireTestDocumentation)
+
+rflint will exit with a zero exit code if no errors were
+found. Otherwise the exit code represents the number of errors. You
+can use this in a CI server or commit hook to prevent a test from
+being accepted if it has any errors.
 
 # Interactive help
 
 You can get a list of all of the command line options by using the
---help option:
+`--help` option:
 
     $ python -m rflint --help
-    python -m rflint --help
     usage: python -m rflint [-h] [--error <RuleName>] [--ignore <RuleName>] [--warn <RuleName>] [--list]
                             [--no-filenames] [--format FORMAT]
                             ...
@@ -63,9 +67,9 @@ You can get a list of all of the command line options by using the
     ...
 
 You can get a list of all of the currently installed rules with the
---list option:
+`--list` option:
 
-    $ python -m rflint --lilst
+    $ python -m rflint --list
     'E DuplicateKeywordNames'
     'E DuplicateTestNames'
     'E RequireKeywordDocumentation'
