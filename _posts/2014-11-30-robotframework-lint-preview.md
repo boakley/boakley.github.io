@@ -104,7 +104,7 @@ go.
 
 # Where can I find robotframework-lint?
 
-rflint is available on github: https://github.com/boakley/robotframework-lint
+rflint is available on github: <https://github.com/boakley/robotframework-lint>
 
 You can also install with pip, which will install the module "rflint"
 in the standard place:
@@ -117,7 +117,7 @@ Being a preview release, documentation isn't complete. However, what
 documentation there is can be found on the github wiki for the
 project, here: 
 
-https://github.com/boakley/robotframework-lint/wiki
+<https://github.com/boakley/robotframework-lint/wiki>
 
 # Want to contribute?
 
@@ -130,7 +130,7 @@ also ask questions on the robotframework-users mailing list.
 # Acknowledgements
 
 A huge thank-you to my current employer, Echo Global Logistics
-([http://www.echo.com]) who generously allows me to work on this
+(<http://www.echo.com>) who generously allows me to work on this
 project as part of my day job.
 
 
