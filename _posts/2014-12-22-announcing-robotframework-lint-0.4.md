@@ -55,9 +55,15 @@ to display both rule names and their documentation.
 
 ## Getting rflint
 
-robotframework-lint is available from pyip, which means you can install it with pip:
+robotframework-lint is available from pypi, which means you can install it with pip:
 
     $ pip install --upgrade robotframework-lint
+
+## Use the source, Luke!
+
+robotframework-lint is hosted on github:
+
+https://github.com/boakley/robotframework-lint
 
 ## Acknowledgements
 
