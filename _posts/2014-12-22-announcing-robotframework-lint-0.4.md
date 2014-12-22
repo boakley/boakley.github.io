@@ -63,7 +63,7 @@ robotframework-lint is available from pypi, which means you can install it with 
 
 robotframework-lint is hosted on github:
 
-https://github.com/boakley/robotframework-lint
+<https://github.com/boakley/robotframework-lint>
 
 ## Acknowledgements
 
