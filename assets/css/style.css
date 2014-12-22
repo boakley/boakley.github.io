@@ -320,3 +320,8 @@ blockquote {
 #footer {
     border-color: #eee8d5;
 }
+
+#recent a {
+    font-size: .9em;
+}
+
